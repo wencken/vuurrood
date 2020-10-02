@@ -1,0 +1,62 @@
+.title {
+  color: var(--color-red);
+  margin: 0rem;
+  composes: paragraphs from "../styles/typo.module.css";
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }  
+}
+
+.article {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .article {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: flex-start;
+    width: 50%;
+  }  
+}
+
+.quote {
+  font-style: italic;
+  composes: title from "../styles/typo.module.css";
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.img {
+  margin-bottom: 5rem;
+  width: 30rem;
+  height: 30rem;
+  background-image: url("../assets/3.jpeg");
+  border-radius: 100%;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .img {
+    width: 40rem;
+    height: 40rem;
+    background-image: url("../assets/3.jpeg");
+    border-radius: 100%;
+    background-size: cover;
+  }
+}

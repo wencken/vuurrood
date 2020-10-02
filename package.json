@@ -2,33 +2,36 @@
   "name": "vuurrood",
   "version": "0.1.0",
   "private": true,
+  "repository": "git@github.com/wencken/vuurrood.git",
+  "author": "Wencke Nuyt <wencke.nuyt@student.howest.be>",
+  "license": "MIT",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "mobx": "^4.2.0",
+    "mobx-react": "^5.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "uniqid": "^5.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@storybook/react": "^5.0.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/addons": "^5.0.0"
   }
 }

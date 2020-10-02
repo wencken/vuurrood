@@ -1,0 +1,13 @@
+:global(:root){
+  @custom-media --mobile screen and (min-width: 0);
+  @custom-media --tablet screen and (min-width: 375px);
+  @custom-media --desktop screen and (min-width: 1440px);
+}
+
+
+/* ---------------------------------------------- */
+@media only screen and (min-width: 0) {}
+/* ---------------------------------------------- */
+@media only screen and (min-width: 768px) {}
+/* ---------------------------------------------- */
+@media only screen and (min-width: 1440px) {}

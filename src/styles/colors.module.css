@@ -1,0 +1,27 @@
+:global(:root){
+  --color-bluedark: #1756A0;
+  --color-bluelight: #B6D5D6;
+  --color-pink: #EEC5C5;
+  --color-red: #D02D22;
+  --color-white: #ffffff;
+}
+
+.color-bluedark {
+  color: var(--color-bluedark);
+}
+
+.color-bluelight {
+  color: var(--color-bluelight);
+}
+
+.color-pink {
+  color: var(--color-pink);
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.color-white {
+  color: var(--color-white);
+}

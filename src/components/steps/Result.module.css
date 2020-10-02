@@ -1,0 +1,23 @@
+.article{
+  width: 100vw;
+  min-height: 74vh;
+  padding: 2rem;
+  padding-top: 10rem;
+  background-color: var(--color-bluelight);
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.text{
+  composes: title from "../../styles/typo.module.css";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.wrapper{
+  width: 60%;
+}
+
+.link{
+  text-decoration: underline;
+}

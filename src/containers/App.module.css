@@ -1,0 +1,32 @@
+.home {
+  color: var(--color-bluelight);
+  background-color: var(--color-bluedark);
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.result {
+  color: var(--color-bluedark);
+  background-color: var(--color-bluelight);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+
+.about {
+  color: var(--color-red);
+  background-color: var(--color-pink);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+
+.home, .result, .about {
+  width: 100vw;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  composes: paragraphs from "../styles/typo.module.css";
+} 
+

@@ -1,0 +1,98 @@
+.sliders{
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+.article {
+  width: 100vw;
+  min-height: 65vh;
+  padding: 2rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  background-color: var(--color-bluedark);
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.wrapperSlider{
+  display: flex;
+  flex-flow: column;
+}
+
+.button, .buttonHupla {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  height: 5rem;
+  outline: none;
+  background-color: var(--color-bluelight);
+  color: var(--color-bluedark);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: var(--color-pink);
+  color: var(--color-bluedark);
+}
+
+.buttonHupla{
+  width: 15rem;
+}
+
+.button{
+  width: 5rem;
+}
+
+.inputRange{
+  margin: 2rem;
+  cursor: pointer;
+}
+input[type= "range"]{
+  width: 10rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  background-color: var(--color-bluelight);
+  outline: none;
+}
+input[type="range"]::-moz-range-progress {
+  width: 10rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  background-color: var(--color-bluelight);
+  outline: none;
+}
+input[type="range"]::-moz-range-track {  
+  width: 10rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  background-color: var(--color-bluelight);
+  outline: none;
+}
+input[type="range"]::-ms-fill-lower {
+  width: 10rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  background-color: var(--color-bluelight);
+  outline: none;
+}
+input[type="range"]::-ms-fill-upper {  
+  width: 10rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+  background-color: var(--color-bluelight);
+  outline: none;
+}

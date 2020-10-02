@@ -1,0 +1,76 @@
+.main {
+  background-color: var(--color-bluedark);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.link {
+  color: var(--color-bluelight);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  composes: title from "../styles/typo.module.css";
+}
+
+.title {
+  color: var(--color-pink);
+  composes: titleMini from "../styles/typo.module.css";
+}
+
+.tabBar {
+  color: var(--color-bluelight);
+  composes: paragraphs from "../styles/typo.module.css";
+}
+
+.tabBar a {
+  color: var(--color-white);
+  padding-left: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .tabBar a {
+    color: var(--color-white);
+    padding-left: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.tabBar .active {
+  text-decoration: underline;
+}
+
+/* ________ */
+
+.main2 {
+  background-color: var(--color-bluelight);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.main3 {
+  background-color: var(--color-pink);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.link2 {
+  color: var(--color-bluedark);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  composes: title from "../styles/typo.module.css";
+}
+
+.link3 {
+  color: var(--color-red);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  composes: title from "../styles/typo.module.css";
+}
