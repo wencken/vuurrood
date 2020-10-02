@@ -6,6 +6,7 @@
   "author": "Wencke Nuyt <wencke.nuyt@student.howest.be>",
   "license": "MIT",
   "dependencies": {
+    "file-loader": "^6.1.0",
     "mobx": "^4.2.0",
     "mobx-react": "^5.0.0",
     "react": "^16.3.2",
@@ -29,9 +30,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^5.0.0",
     "@storybook/addon-actions": "^5.0.0",
     "@storybook/addon-links": "^5.0.0",
-    "@storybook/addons": "^5.0.0"
+    "@storybook/addons": "^5.0.0",
+    "@storybook/react": "^5.0.0"
   }
 }
